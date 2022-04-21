@@ -1,0 +1,31 @@
+{
+  "name": "discordbotlemiy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mert9259/DiscordBotLemiy.git"
+  },
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "author": "Lemiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mert9259/DiscordBotLemiy/issues"
+  },
+  "homepage": "https://github.com/mert9259/DiscordBotLemiy#readme",
+  "dependencies": {
+    "@discordjs/rest": "^0.4.1",
+    "axios": "^0.26.1",
+    "discord-api-types": "^0.31.2",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  }
+}
